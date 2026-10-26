@@ -1,0 +1,4388 @@
+{
+ "generatedAt": "2026-10-26T19:54:16.750Z",
+ "license": "Dados de pesquisas extraídos da Wikipedia em inglês (CC BY-SA 4.0).",
+ "races": {
+  "governor-AK": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-AL": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Alabama_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-AR": {
+   "candidates": [
+    {
+     "name": "Sarah Huckabee Sanders",
+     "party": "R"
+    },
+    {
+     "name": "Fredrick Love",
+     "party": "D"
+    },
+    {
+     "name": "Colt Shelby",
+     "party": "L"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Hendrix College",
+     "start": "2026-10-08",
+     "end": "2026-10-13",
+     "sampleSize": 709,
+     "population": "LV",
+     "moe": 5,
+     "results": {
+      "Sarah Huckabee Sanders": 51,
+      "Fredrick Love": 32,
+      "Colt Shelby": 11
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Hendrix College",
+     "start": "2026-08-11",
+     "end": "2026-08-12",
+     "sampleSize": 1217,
+     "population": "LV",
+     "moe": 4.7,
+     "results": {
+      "Sarah Huckabee Sanders": 45,
+      "Fredrick Love": 40,
+      "Colt Shelby": 7
+     },
+     "other": null,
+     "undecided": 8
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-AZ": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-CA": {
+   "candidates": [
+    {
+     "name": "Xavier Becerra",
+     "party": "D"
+    },
+    {
+     "name": "Steve Hilton",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "McLaughlin & Associates (R)",
+     "start": "2026-10-17",
+     "end": "2026-10-20",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Xavier Becerra": 55,
+      "Steve Hilton": 39
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-10-17",
+     "end": "2026-10-19",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Xavier Becerra": 60,
+      "Steve Hilton": 33
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-10-17",
+     "end": "2026-10-19",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Xavier Becerra": 64,
+      "Steve Hilton": 36
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "ActiVote",
+     "start": "2026-09-24",
+     "end": "2026-10-16",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Xavier Becerra": 63,
+      "Steve Hilton": 37
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "UC Berkeley Citrin Center/TrueDot/Politico",
+     "start": "2026-10-09",
+     "end": "2026-10-14",
+     "sampleSize": 909,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Xavier Becerra": 55,
+      "Steve Hilton": 35
+     },
+     "other": 1,
+     "undecided": 10
+    },
+    {
+     "pollster": "Manhattan Institute (R)",
+     "start": "2026-09-24",
+     "end": "2026-10-01",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Xavier Becerra": 57,
+      "Steve Hilton": 39
+     },
+     "other": 1,
+     "undecided": 3
+    },
+    {
+     "pollster": "Independent Voter Project",
+     "start": "2026-09-23",
+     "end": "2026-09-28",
+     "sampleSize": 2906,
+     "population": "LV",
+     "moe": 2.5,
+     "results": {
+      "Xavier Becerra": 48,
+      "Steve Hilton": 38
+     },
+     "other": 3,
+     "undecided": 11
+    },
+    {
+     "pollster": "Berkeley IGS",
+     "start": "2026-09-15",
+     "end": "2026-09-20",
+     "sampleSize": 4512,
+     "population": "LV",
+     "moe": 2,
+     "results": {
+      "Xavier Becerra": 58,
+      "Steve Hilton": 33
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "SurveyUSA",
+     "start": "2026-09-15",
+     "end": "2026-09-20",
+     "sampleSize": 742,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Xavier Becerra": 55,
+      "Steve Hilton": 33
+     },
+     "other": null,
+     "undecided": 12
+    },
+    {
+     "pollster": "UC Berkeley Citrin Center/TrueDot/Politico",
+     "start": "2026-09-08",
+     "end": "2026-09-14",
+     "sampleSize": 2418,
+     "population": "RV",
+     "moe": 2.7,
+     "results": {
+      "Xavier Becerra": 48,
+      "Steve Hilton": 34
+     },
+     "other": 4,
+     "undecided": 13
+    },
+    {
+     "pollster": "UC Berkeley Citrin Center/TrueDot/Politico",
+     "start": "2026-09-08",
+     "end": "2026-09-14",
+     "sampleSize": 1983,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Xavier Becerra": 54,
+      "Steve Hilton": 36
+     },
+     "other": 2,
+     "undecided": 8
+    },
+    {
+     "pollster": "PPIC",
+     "start": "2026-09-04",
+     "end": "2026-09-10",
+     "sampleSize": 1103,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Xavier Becerra": 60,
+      "Steve Hilton": 38
+     },
+     "other": 1,
+     "undecided": 1
+    },
+    {
+     "pollster": "Berkeley IGS",
+     "start": "2026-08-03",
+     "end": "2026-08-09",
+     "sampleSize": 2310,
+     "population": "LV",
+     "moe": 2.5,
+     "results": {
+      "Xavier Becerra": 55,
+      "Steve Hilton": 37
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "PPIC",
+     "start": "2026-06-29",
+     "end": "2026-07-06",
+     "sampleSize": 1003,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Xavier Becerra": 61,
+      "Steve Hilton": 36
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "Kreate Strategies",
+     "start": "2026-06-13",
+     "end": "2026-06-17",
+     "sampleSize": 900,
+     "population": "LV",
+     "moe": 3.3,
+     "results": {
+      "Xavier Becerra": 58,
+      "Steve Hilton": 33
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "CEPP",
+     "start": "2026-05-23",
+     "end": "2026-05-26",
+     "sampleSize": 735,
+     "population": "LV",
+     "moe": 3.6,
+     "results": {
+      "Xavier Becerra": 58,
+      "Steve Hilton": 35
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "Berkeley IGS",
+     "start": "2026-05-19",
+     "end": "2026-05-24",
+     "sampleSize": 8578,
+     "population": "RV",
+     "moe": 2,
+     "results": {
+      "Xavier Becerra": 52,
+      "Steve Hilton": 31
+     },
+     "other": null,
+     "undecided": 17
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_California_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-CO": {
+   "candidates": [
+    {
+     "name": "Phil Weiser",
+     "party": "D"
+    },
+    {
+     "name": "Victor Marx",
+     "party": "R"
+    }
+   ],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-CT": {
+   "candidates": [
+    {
+     "name": "Ned Lamont",
+     "party": "D"
+    },
+    {
+     "name": "Ryan Fazio",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Emerson College",
+     "start": "2026-10-10",
+     "end": "2026-10-12",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Ned Lamont": 51,
+      "Ryan Fazio": 38
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Quinnipiac University",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": 1225,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ned Lamont": 58,
+      "Ryan Fazio": 38
+     },
+     "other": 2,
+     "undecided": 1
+    },
+    {
+     "pollster": "Wesleyan University/YouGov",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 4.54,
+     "results": {
+      "Ned Lamont": 53,
+      "Ryan Fazio": 32
+     },
+     "other": 4,
+     "undecided": 11
+    },
+    {
+     "pollster": "Wesleyan University/YouGov",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": null,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Ned Lamont": 57,
+      "Ryan Fazio": 34
+     },
+     "other": 0,
+     "undecided": 8
+    },
+    {
+     "pollster": "GreatBlue Research",
+     "start": "2026-10-06",
+     "end": "2026-10-12",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 53,
+      "Ryan Fazio": 31
+     },
+     "other": null,
+     "undecided": 15
+    },
+    {
+     "pollster": "GreatBlue Research",
+     "start": "2026-10-06",
+     "end": "2026-10-12",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 56,
+      "Ryan Fazio": 33
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "University of New Hampshire",
+     "start": "2026-09-17",
+     "end": "2026-09-21",
+     "sampleSize": 540,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Ned Lamont": 55,
+      "Ryan Fazio": 38
+     },
+     "other": 1,
+     "undecided": 6
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-09-16",
+     "end": "2026-09-17",
+     "sampleSize": 979,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 48,
+      "Ryan Fazio": 41
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Quinnipiac University",
+     "start": "2026-09-08",
+     "end": "2026-09-14",
+     "sampleSize": 1288,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ned Lamont": 55,
+      "Ryan Fazio": 38
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "GreatBlue Research",
+     "start": "2026-09-01",
+     "end": "2026-09-08",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 48,
+      "Ryan Fazio": 34
+     },
+     "other": 0,
+     "undecided": 18
+    },
+    {
+     "pollster": "GreatBlue Research",
+     "start": "2026-09-01",
+     "end": "2026-09-08",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 52,
+      "Ryan Fazio": 37
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "University of New Hampshire",
+     "start": "2026-08-20",
+     "end": "2026-08-24",
+     "sampleSize": 809,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Ned Lamont": 52,
+      "Ryan Fazio": 37
+     },
+     "other": 3,
+     "undecided": 9
+    },
+    {
+     "pollster": "Sacred Heart University/WFSB/CT Insider",
+     "start": "2026-07-21",
+     "end": "2026-07-26",
+     "sampleSize": 1000,
+     "population": "RV",
+     "moe": 3.1,
+     "results": {
+      "Ned Lamont": 50,
+      "Ryan Fazio": 30
+     },
+     "other": 1,
+     "undecided": 20
+    },
+    {
+     "pollster": "University of New Hampshire",
+     "start": "2026-06-18",
+     "end": "2026-06-23",
+     "sampleSize": 828,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Ned Lamont": 49,
+      "Ryan Fazio": 36
+     },
+     "other": 2,
+     "undecided": 12
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Connecticut_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-FL": {
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "R"
+    },
+    {
+     "name": "David Jolly",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "RedBox Research",
+     "start": "2026-10-20",
+     "end": "2026-10-23",
+     "sampleSize": 4832,
+     "population": "LV",
+     "moe": 2.5,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 44
+     },
+     "other": 3,
+     "undecided": 4
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-10-18",
+     "end": "2026-10-20",
+     "sampleSize": 1014,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 40
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "University of North Florida",
+     "start": "2026-10-12",
+     "end": "2026-10-19",
+     "sampleSize": 1471,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 47
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-01",
+     "end": "2026-10-19",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Byron Donalds": 52,
+      "David Jolly": 48
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Univision/YouGov",
+     "start": "2026-10-02",
+     "end": "2026-10-15",
+     "sampleSize": 825,
+     "population": "RV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 50,
+      "David Jolly": 42
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Fabrizio, Lee & Associates (R)",
+     "start": "2026-10-08",
+     "end": "2026-10-11",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 43
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-10",
+     "sampleSize": 920,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 47
+     },
+     "other": 1,
+     "undecided": 5
+    },
+    {
+     "pollster": "MDW Communications",
+     "start": "2026-10-04",
+     "end": "2026-10-10",
+     "sampleSize": 2351,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 46,
+      "David Jolly": 44
+     },
+     "other": null,
+     "undecided": 10
+    },
+    {
+     "pollster": "Stetson University",
+     "start": "2026-10-01",
+     "end": "2026-10-09",
+     "sampleSize": 716,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Byron Donalds": 52,
+      "David Jolly": 41
+     },
+     "other": 3,
+     "undecided": 5
+    },
+    {
+     "pollster": "St. Pete Polls",
+     "start": "2026-10-05",
+     "end": "2026-10-07",
+     "sampleSize": 836,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Byron Donalds": 45,
+      "David Jolly": 45
+     },
+     "other": 4,
+     "undecided": 7
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-28",
+     "end": "2026-10-05",
+     "sampleSize": 3813,
+     "population": "LV",
+     "moe": 2.7,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 45
+     },
+     "other": 1,
+     "undecided": 7
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2026-09-28",
+     "end": "2026-10-04",
+     "sampleSize": 849,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Byron Donalds": 52,
+      "David Jolly": 42
+     },
+     "other": 3,
+     "undecided": 3
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2026-09-28",
+     "end": "2026-10-04",
+     "sampleSize": 1174,
+     "population": "RV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 48,
+      "David Jolly": 39
+     },
+     "other": 5,
+     "undecided": 8
+    },
+    {
+     "pollster": "Mason-Dixon",
+     "start": "2026-09-28",
+     "end": "2026-10-01",
+     "sampleSize": 625,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 48,
+      "David Jolly": 41
+     },
+     "other": 1,
+     "undecided": 10
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-09-25",
+     "end": "2026-09-27",
+     "sampleSize": 1063,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 46,
+      "David Jolly": 48
+     },
+     "other": 1,
+     "undecided": 5
+    },
+    {
+     "pollster": "Stetson University",
+     "start": "2026-09-14",
+     "end": "2026-09-21",
+     "sampleSize": 830,
+     "population": "LV",
+     "moe": 4.3,
+     "results": {
+      "Byron Donalds": 51,
+      "David Jolly": 39
+     },
+     "other": 5,
+     "undecided": 5
+    },
+    {
+     "pollster": "St. Pete Polls",
+     "start": "2026-09-15",
+     "end": "2026-09-17",
+     "sampleSize": 913,
+     "population": "LV",
+     "moe": 3.2,
+     "results": {
+      "Byron Donalds": 44,
+      "David Jolly": 43
+     },
+     "other": 4,
+     "undecided": 9
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-09-07",
+     "end": "2026-09-09",
+     "sampleSize": 1107,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 44,
+      "David Jolly": 47
+     },
+     "other": 1,
+     "undecided": 7
+    },
+    {
+     "pollster": "Hart Research Associates (D)",
+     "start": "2026-08-10",
+     "end": "2026-08-13",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 45,
+      "David Jolly": 46
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2026-07-20",
+     "end": "2026-07-26",
+     "sampleSize": 1026,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Byron Donalds": 45,
+      "David Jolly": 38
+     },
+     "other": null,
+     "undecided": 17
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2026-07-20",
+     "end": "2026-07-26",
+     "sampleSize": 1338,
+     "population": "RV",
+     "moe": 2.62,
+     "results": {
+      "Byron Donalds": 40,
+      "David Jolly": 36
+     },
+     "other": null,
+     "undecided": 24
+    },
+    {
+     "pollster": "University of North Florida",
+     "start": "2026-07-08",
+     "end": "2026-07-17",
+     "sampleSize": 848,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Byron Donalds": 46,
+      "David Jolly": 41
+     },
+     "other": 7,
+     "undecided": 6
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-09",
+     "end": "2026-07-11",
+     "sampleSize": 1348,
+     "population": "RV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 37,
+      "David Jolly": 37
+     },
+     "other": 11,
+     "undecided": 16
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-09",
+     "end": "2026-07-11",
+     "sampleSize": 1348,
+     "population": "RV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 40,
+      "David Jolly": 41
+     },
+     "other": 7,
+     "undecided": 12
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-05-13",
+     "end": "2026-05-16",
+     "sampleSize": 1593,
+     "population": "LV",
+     "moe": 2.3,
+     "results": {
+      "Byron Donalds": 42,
+      "David Jolly": 46
+     },
+     "other": 4,
+     "undecided": 8
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-05-13",
+     "end": "2026-05-16",
+     "sampleSize": 2070,
+     "population": "RV",
+     "moe": 2.3,
+     "results": {
+      "Byron Donalds": 43,
+      "David Jolly": 41
+     },
+     "other": 6,
+     "undecided": 10
+    },
+    {
+     "pollster": "Cherry Communications (R)",
+     "start": "2026-05-01",
+     "end": "2026-05-09",
+     "sampleSize": 604,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 39
+     },
+     "other": null,
+     "undecided": 14
+    },
+    {
+     "pollster": "Stetson University",
+     "start": "2026-03-15",
+     "end": "2026-04-13",
+     "sampleSize": 848,
+     "population": "LV",
+     "moe": 4.1,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 40
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Echelon Insights",
+     "start": "2026-04-03",
+     "end": "2026-04-09",
+     "sampleSize": 406,
+     "population": "LV",
+     "moe": 6,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 43
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "MDW Communications (D)",
+     "start": "2026-03-27",
+     "end": "2026-04-03",
+     "sampleSize": 1834,
+     "population": "LV",
+     "moe": 2,
+     "results": {
+      "Byron Donalds": 41,
+      "David Jolly": 41
+     },
+     "other": null,
+     "undecided": 18
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-03-29",
+     "end": "2026-03-31",
+     "sampleSize": 1165,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 44,
+      "David Jolly": 39
+     },
+     "other": 2,
+     "undecided": 17
+    },
+    {
+     "pollster": "University of North Florida",
+     "start": "2026-02-21",
+     "end": "2026-03-02",
+     "sampleSize": 786,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 42,
+      "David Jolly": 36
+     },
+     "other": 5,
+     "undecided": 17
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2026-02-13",
+     "end": "2026-02-16",
+     "sampleSize": 1129,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 41,
+      "David Jolly": 36
+     },
+     "other": 6,
+     "undecided": 12
+    },
+    {
+     "pollster": "University of North Florida",
+     "start": "2025-10-15",
+     "end": "2025-10-25",
+     "sampleSize": 728,
+     "population": "LV",
+     "moe": 4.3,
+     "results": {
+      "Byron Donalds": 45,
+      "David Jolly": 34
+     },
+     "other": 3,
+     "undecided": 18
+    },
+    {
+     "pollster": "Targoz Market Research",
+     "start": "2025-09-16",
+     "end": "2025-09-18",
+     "sampleSize": 1118,
+     "population": "RV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 36,
+      "David Jolly": 32
+     },
+     "other": 4,
+     "undecided": 28
+    },
+    {
+     "pollster": "Bendixen & Amandi International (D)",
+     "start": "2025-09-07",
+     "end": "2025-09-09",
+     "sampleSize": 631,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Byron Donalds": 40,
+      "David Jolly": 41
+     },
+     "other": null,
+     "undecided": 19
+    },
+    {
+     "pollster": "AIF Center (R)",
+     "start": "2025-08-25",
+     "end": "2025-08-27",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 41
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Victory Insights (R)",
+     "start": "2025-06-07",
+     "end": "2025-06-10",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 37,
+      "David Jolly": 31
+     },
+     "other": null,
+     "undecided": 32
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-GA": {
+   "candidates": [
+    {
+     "name": "Rick Jackson",
+     "party": "R"
+    },
+    {
+     "name": "Keisha Lance Bottoms",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-06",
+     "end": "2026-10-20",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Rick Jackson": 51.5,
+      "Keisha Lance Bottoms": 48.5
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Rick Jackson": 48,
+      "Keisha Lance Bottoms": 47
+     },
+     "other": 5,
+     "undecided": 1
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Rick Jackson": 49,
+      "Keisha Lance Bottoms": 48
+     },
+     "other": 3,
+     "undecided": 1
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Rick Jackson": 51,
+      "Keisha Lance Bottoms": 49
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "University of Georgia",
+     "start": "2026-10-07",
+     "end": "2026-10-15",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Rick Jackson": 46,
+      "Keisha Lance Bottoms": 45
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-12",
+     "end": "2026-10-13",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Rick Jackson": 49,
+      "Keisha Lance Bottoms": 47
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-09-22",
+     "end": "2026-09-23",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Rick Jackson": 48,
+      "Keisha Lance Bottoms": 46
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 712,
+     "population": "RV",
+     "moe": 4,
+     "results": {
+      "Rick Jackson": 50,
+      "Keisha Lance Bottoms": 50
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 712,
+     "population": "RV",
+     "moe": 4,
+     "results": {
+      "Rick Jackson": 48,
+      "Keisha Lance Bottoms": 46
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Rick Jackson": 51,
+      "Keisha Lance Bottoms": 50
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Rick Jackson": 49,
+      "Keisha Lance Bottoms": 47
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3414,
+     "population": "RV",
+     "moe": 2.7,
+     "results": {
+      "Rick Jackson": 45,
+      "Keisha Lance Bottoms": 44
+     },
+     "other": 2,
+     "undecided": 9
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3299,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Rick Jackson": 46,
+      "Keisha Lance Bottoms": 44
+     },
+     "other": 2,
+     "undecided": 8
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3069,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Rick Jackson": 47,
+      "Keisha Lance Bottoms": 44
+     },
+     "other": 2,
+     "undecided": 8
+    },
+    {
+     "pollster": "Rasmussen Reports (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-14",
+     "sampleSize": 1019,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Rick Jackson": 48,
+      "Keisha Lance Bottoms": 45
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-08-16",
+     "end": "2026-08-17",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Rick Jackson": 46,
+      "Keisha Lance Bottoms": 46
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-07-29",
+     "end": "2026-08-01",
+     "sampleSize": 815,
+     "population": "LV",
+     "moe": 3.6,
+     "results": {
+      "Rick Jackson": 45,
+      "Keisha Lance Bottoms": 46
+     },
+     "other": 1,
+     "undecided": 8
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/Impact Research (D)",
+     "start": "2026-07-13",
+     "end": "2026-07-16",
+     "sampleSize": 1060,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Rick Jackson": 46,
+      "Keisha Lance Bottoms": 48
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "State Navigate",
+     "start": "2026-07-10",
+     "end": "2026-07-13",
+     "sampleSize": 448,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Rick Jackson": 44,
+      "Keisha Lance Bottoms": 51
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "State Navigate",
+     "start": "2026-07-10",
+     "end": "2026-07-13",
+     "sampleSize": 448,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Rick Jackson": 43,
+      "Keisha Lance Bottoms": 50
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Wick",
+     "start": "2026-06-27",
+     "end": "2026-06-30",
+     "sampleSize": 1175,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Rick Jackson": 43,
+      "Keisha Lance Bottoms": 43
+     },
+     "other": null,
+     "undecided": 14
+    },
+    {
+     "pollster": "Beacon Research (D)/Shaw & Co. Research (R)",
+     "start": "2026-06-23",
+     "end": "2026-06-27",
+     "sampleSize": 1002,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Rick Jackson": 47,
+      "Keisha Lance Bottoms": 52
+     },
+     "other": null,
+     "undecided": 1
+    },
+    {
+     "pollster": "Concord Public Opinion Partners (D)",
+     "start": "2026-05-30",
+     "end": "2026-06-02",
+     "sampleSize": 510,
+     "population": "LV",
+     "moe": 4.3,
+     "results": {
+      "Rick Jackson": 38,
+      "Keisha Lance Bottoms": 53
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "Echelon Insights (R)",
+     "start": "2026-04-03",
+     "end": "2026-04-09",
+     "sampleSize": 407,
+     "population": "LV",
+     "moe": 6.5,
+     "results": {
+      "Rick Jackson": 43,
+      "Keisha Lance Bottoms": 49
+     },
+     "other": null,
+     "undecided": 8
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-HI": {
+   "candidates": [
+    {
+     "name": "Josh Green",
+     "party": "D"
+    },
+    {
+     "name": "Gary Cordery",
+     "party": "R"
+    }
+   ],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Hawaii_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-IA": {
+   "candidates": [
+    {
+     "name": "Zach Lahn",
+     "party": "R"
+    },
+    {
+     "name": "Rob Sand",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-19",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 3.3,
+     "results": {
+      "Zach Lahn": 45,
+      "Rob Sand": 49
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "GS Strategy Group (R)/ New River Strategies (D)",
+     "start": "2026-10-09",
+     "end": "2026-10-13",
+     "sampleSize": 602,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 54
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "NPA Polling",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Zach Lahn": 45,
+      "Rob Sand": 50
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-10-06",
+     "end": "2026-10-12",
+     "sampleSize": 2245,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Zach Lahn": 44,
+      "Rob Sand": 50
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-10-08",
+     "end": "2026-10-11",
+     "sampleSize": null,
+     "population": "LV",
+     "moe": 6.6,
+     "results": {
+      "Zach Lahn": 45,
+      "Rob Sand": 52
+     },
+     "other": 2,
+     "undecided": 2
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-10-08",
+     "end": "2026-10-11",
+     "sampleSize": 1100,
+     "population": "RV",
+     "moe": 4.5,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 54
+     },
+     "other": 1,
+     "undecided": 2
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-10-05",
+     "end": "2026-10-06",
+     "sampleSize": 650,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Zach Lahn": 45,
+      "Rob Sand": 49
+     },
+     "other": 2,
+     "undecided": 6
+    },
+    {
+     "pollster": "SSRS",
+     "start": "2026-09-29",
+     "end": "2026-10-05",
+     "sampleSize": 801,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Zach Lahn": 42,
+      "Rob Sand": 51
+     },
+     "other": 7,
+     "undecided": null
+    },
+    {
+     "pollster": "Suffolk University",
+     "start": "2026-10-01",
+     "end": "2026-10-04",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 55
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "New York Times/Siena University",
+     "start": "2026-09-22",
+     "end": "2026-10-01",
+     "sampleSize": 606,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Zach Lahn": 41,
+      "Rob Sand": 52
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-09-24",
+     "end": "2026-09-28",
+     "sampleSize": 1008,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Zach Lahn": 44,
+      "Rob Sand": 53
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-09-24",
+     "end": "2026-09-28",
+     "sampleSize": 1204,
+     "population": "RV",
+     "moe": 2.5,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 53
+     },
+     "other": 1,
+     "undecided": 3
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-09-17",
+     "end": "2026-09-20",
+     "sampleSize": 1050,
+     "population": "RV",
+     "moe": 4.4,
+     "results": {
+      "Zach Lahn": 42,
+      "Rob Sand": 54
+     },
+     "other": 2,
+     "undecided": 2
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-16",
+     "sampleSize": 831,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Zach Lahn": 42,
+      "Rob Sand": 46
+     },
+     "other": null,
+     "undecided": 12
+    },
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2026-09-09",
+     "end": "2026-09-11",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Zach Lahn": 44,
+      "Rob Sand": 48
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-03",
+     "end": "2026-09-08",
+     "sampleSize": 2169,
+     "population": "RV",
+     "moe": 3.5,
+     "results": {
+      "Zach Lahn": 39,
+      "Rob Sand": 50
+     },
+     "other": 1,
+     "undecided": 10
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-03",
+     "end": "2026-09-08",
+     "sampleSize": 2041,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Zach Lahn": 41,
+      "Rob Sand": 51
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-08-31",
+     "end": "2026-09-01",
+     "sampleSize": 750,
+     "population": "LV",
+     "moe": 3.6,
+     "results": {
+      "Zach Lahn": 46,
+      "Rob Sand": 49
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Suffolk University",
+     "start": "2026-08-20",
+     "end": "2026-08-23",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Zach Lahn": 44,
+      "Rob Sand": 48
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-08-02",
+     "end": "2026-08-04",
+     "sampleSize": 712,
+     "population": "LV",
+     "moe": 3.7,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 48
+     },
+     "other": 2,
+     "undecided": 7
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-06-23",
+     "end": "2026-06-27",
+     "sampleSize": 1003,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Zach Lahn": 44,
+      "Rob Sand": 53
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "New York Times/ Siena University",
+     "start": "2026-06-15",
+     "end": "2026-06-27",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4.7,
+     "results": {
+      "Zach Lahn": 47,
+      "Rob Sand": 48
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2026-06-16",
+     "end": "2026-06-19",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Zach Lahn": 43,
+      "Rob Sand": 48
+     },
+     "other": null,
+     "undecided": 9
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-ID": {
+   "candidates": [
+    {
+     "name": "Brad Little",
+     "party": "R"
+    },
+    {
+     "name": "Terri Pickens",
+     "party": "D"
+    },
+    {
+     "name": "John Stegner",
+     "party": "I"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "VoteNexus Research",
+     "start": "2026-10-21",
+     "end": "2026-10-22",
+     "sampleSize": 700,
+     "population": "LV",
+     "moe": 4.5,
+     "results": {
+      "Brad Little": 49,
+      "Terri Pickens": 30,
+      "John Stegner": 10
+     },
+     "other": 4,
+     "undecided": 7
+    },
+    {
+     "pollster": "Advanced Targeting Research",
+     "start": "2026-09-13",
+     "end": "2026-09-16",
+     "sampleSize": 700,
+     "population": "RV",
+     "moe": 3.7,
+     "results": {
+      "Brad Little": 37,
+      "Terri Pickens": 27,
+      "John Stegner": 13
+     },
+     "other": 3,
+     "undecided": 20
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-28",
+     "end": "2026-07-30",
+     "sampleSize": 1213,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Brad Little": 48,
+      "Terri Pickens": 27,
+      "John Stegner": 11
+     },
+     "other": 2,
+     "undecided": 13
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-28",
+     "end": "2026-07-30",
+     "sampleSize": 1213,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Brad Little": 54,
+      "Terri Pickens": 33
+     },
+     "other": 3,
+     "undecided": 10
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-28",
+     "end": "2026-07-30",
+     "sampleSize": 1213,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Brad Little": 47,
+      "John Stegner": 34
+     },
+     "other": 3,
+     "undecided": 16
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-IL": {
+   "candidates": [
+    {
+     "name": "JB Pritzker",
+     "party": "D"
+    },
+    {
+     "name": "Darren Bailey",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-02",
+     "end": "2026-10-22",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "JB Pritzker": 59,
+      "Darren Bailey": 41
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Public Policy Polling (D)",
+     "start": "2026-09-30",
+     "end": "2026-10-01",
+     "sampleSize": 569,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "JB Pritzker": 54,
+      "Darren Bailey": 34
+     },
+     "other": 6,
+     "undecided": 6
+    },
+    {
+     "pollster": "Victory Research",
+     "start": "2025-11-20",
+     "end": "2025-11-24",
+     "sampleSize": 1208,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "JB Pritzker": 54,
+      "Darren Bailey": 34
+     },
+     "other": null,
+     "undecided": 12
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "governor-KS": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-MA": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-MD": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Maryland_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-ME": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Maine_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-MI": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-MN": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Minnesota_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-NE": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-NH": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-NM": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-NV": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-NY": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-OH": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-OK": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Oklahoma_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-OR": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-PA": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-RI": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-SC": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-SD": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-TN": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Tennessee_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-TX": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-VT": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Vermont_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-WI": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "governor-WY": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_Wyoming_gubernatorial_election",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-AK": {
+   "candidates": [
+    {
+     "name": "RCV round",
+     "party": null
+    },
+    {
+     "name": "Dan S. Sullivan",
+     "party": "R"
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "D"
+    },
+    {
+     "name": "Dan J. Sullivan",
+     "party": "R"
+    },
+    {
+     "name": "Gerald Heikes",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-16",
+     "sampleSize": 694,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Dan S. Sullivan": 44,
+      "Mary Peltola": 47,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 1
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-16",
+     "sampleSize": 675,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 46,
+      "Mary Peltola": 49,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 1
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-16",
+     "sampleSize": 675,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 2,
+      "Dan S. Sullivan": 46,
+      "Mary Peltola": 49,
+      "Dan J. Sullivan": 5
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-16",
+     "sampleSize": 671,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 49,
+      "Mary Peltola": 51
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-08",
+     "end": "2026-10-16",
+     "sampleSize": 660,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 50,
+      "Mary Peltola": 50
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-09",
+     "end": "2026-10-10",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Dan S. Sullivan": 43,
+      "Mary Peltola": 48,
+      "Dan J. Sullivan": 2,
+      "Gerald Heikes": 2
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-09",
+     "end": "2026-10-10",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 48,
+      "Mary Peltola": 50
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-10-01",
+     "end": "2026-10-03",
+     "sampleSize": 1512,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 45,
+      "Mary Peltola": 47,
+      "Dan J. Sullivan": 5,
+      "Gerald Heikes": 3
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-10-01",
+     "end": "2026-10-03",
+     "sampleSize": 1512,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 2,
+      "Dan S. Sullivan": 47,
+      "Mary Peltola": 48,
+      "Dan J. Sullivan": 5
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-10-01",
+     "end": "2026-10-03",
+     "sampleSize": 1512,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 49,
+      "Mary Peltola": 51
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-09-10",
+     "end": "2026-09-12",
+     "sampleSize": 1352,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 44,
+      "Mary Peltola": 48,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 4
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-09-10",
+     "end": "2026-09-12",
+     "sampleSize": 1352,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 2,
+      "Dan S. Sullivan": 45,
+      "Mary Peltola": 50,
+      "Gerald Heikes": 5
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "start": "2026-09-10",
+     "end": "2026-09-12",
+     "sampleSize": 1352,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 48,
+      "Mary Peltola": 52
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/ Impact Research (D)",
+     "start": "2026-09-08",
+     "end": "2026-09-11",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Dan S. Sullivan": 41,
+      "Mary Peltola": 45,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 3
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/ Impact Research (D)",
+     "start": "2026-09-08",
+     "end": "2026-09-11",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 43,
+      "Mary Peltola": 50,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 3
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/ Impact Research (D)",
+     "start": "2026-09-08",
+     "end": "2026-09-11",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "RCV round": 2,
+      "Dan S. Sullivan": 45,
+      "Mary Peltola": 51,
+      "Dan J. Sullivan": 4
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/ Impact Research (D)",
+     "start": "2026-09-08",
+     "end": "2026-09-11",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 47,
+      "Mary Peltola": 53
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 605,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Dan S. Sullivan": 41,
+      "Mary Peltola": 45,
+      "Dan J. Sullivan": 4,
+      "Gerald Heikes": 3
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 578,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 1,
+      "Dan S. Sullivan": 43,
+      "Mary Peltola": 49,
+      "Dan J. Sullivan": 5,
+      "Gerald Heikes": 3
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 575,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 2,
+      "Dan S. Sullivan": 45,
+      "Mary Peltola": 50,
+      "Dan J. Sullivan": 5
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 567,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 47,
+      "Mary Peltola": 53,
+      "Dan J. Sullivan": 5
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 575,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 48,
+      "Mary Peltola": 52
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-07-28",
+     "end": "2026-08-04",
+     "sampleSize": 578,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "RCV round": 3,
+      "Dan S. Sullivan": 48,
+      "Mary Peltola": 52
+     },
+     "other": null,
+     "undecided": 4
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-AL": {
+   "candidates": [
+    {
+     "name": "Barry Moore",
+     "party": "R"
+    },
+    {
+     "name": "Everett Wess",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2026-10-16",
+     "end": "2026-10-17",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.38,
+     "results": {
+      "Barry Moore": 50,
+      "Everett Wess": 35
+     },
+     "other": null,
+     "undecided": 15
+    },
+    {
+     "pollster": "The Alabama Poll",
+     "start": "2026-10-15",
+     "end": "2026-10-16",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Barry Moore": 56,
+      "Everett Wess": 35
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "RMG Research (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-25",
+     "sampleSize": 800,
+     "population": "RV",
+     "moe": 3.5,
+     "results": {
+      "Barry Moore": 54,
+      "Everett Wess": 33
+     },
+     "other": null,
+     "undecided": 13
+    },
+    {
+     "pollster": "yes. every kid.",
+     "start": "2026-07-08",
+     "end": "2026-07-11",
+     "sampleSize": 601,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Barry Moore": 47,
+      "Everett Wess": 32
+     },
+     "other": 1,
+     "undecided": 20
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-AR": {
+   "candidates": [
+    {
+     "name": "Tom Cotton",
+     "party": "R"
+    },
+    {
+     "name": "Hallie Shoffner",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Hendrix College",
+     "start": "2026-10-08",
+     "end": "2026-10-13",
+     "sampleSize": 709,
+     "population": "LV",
+     "moe": 5,
+     "results": {
+      "Tom Cotton": 50,
+      "Hallie Shoffner": 41
+     },
+     "other": 4.5,
+     "undecided": 4.5
+    },
+    {
+     "pollster": "GrayHouse (R)",
+     "start": "2026-09-30",
+     "end": "2026-10-04",
+     "sampleSize": 550,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Tom Cotton": 50,
+      "Hallie Shoffner": 39
+     },
+     "other": 4,
+     "undecided": 7
+    },
+    {
+     "pollster": "J.L. Partners",
+     "start": "2026-08-14",
+     "end": "2026-08-18",
+     "sampleSize": 803,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Tom Cotton": 51,
+      "Hallie Shoffner": 35
+     },
+     "other": 4,
+     "undecided": 11
+    },
+    {
+     "pollster": "Hendrix College",
+     "start": "2026-08-11",
+     "end": "2026-08-12",
+     "sampleSize": 1217,
+     "population": "LV",
+     "moe": 4.7,
+     "results": {
+      "Tom Cotton": 44,
+      "Hallie Shoffner": 47
+     },
+     "other": 3,
+     "undecided": 6
+    },
+    {
+     "pollster": "2040 Strategy Group (D)",
+     "start": "2026-07-17",
+     "end": "2026-07-25",
+     "sampleSize": 586,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Tom Cotton": 46,
+      "Hallie Shoffner": 43
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "GrayHouse (R)",
+     "start": "2026-02-07",
+     "end": "2026-02-09",
+     "sampleSize": 550,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Tom Cotton": 58,
+      "Hallie Shoffner": 36
+     },
+     "other": null,
+     "undecided": 7
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-CO": {
+   "candidates": [
+    {
+     "name": "John Hickenlooper",
+     "party": "D"
+    },
+    {
+     "name": "Mark Baisley",
+     "party": "R"
+    }
+   ],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-DE": {
+   "candidates": [
+    {
+     "name": "Chris Coons",
+     "party": "D"
+    },
+    {
+     "name": "Michael Katz",
+     "party": "R"
+    }
+   ],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-FL": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-GA": {
+   "candidates": [
+    {
+     "name": "Jon Ossoff",
+     "party": "D"
+    },
+    {
+     "name": "Mike Collins",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-06",
+     "end": "2026-10-20",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Jon Ossoff": 54,
+      "Mike Collins": 46
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Jon Ossoff": 52,
+      "Mike Collins": 45
+     },
+     "other": null,
+     "undecided": 3
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Jon Ossoff": 53,
+      "Mike Collins": 45
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-17",
+     "sampleSize": 755,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Jon Ossoff": 54,
+      "Mike Collins": 46
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "University of Georgia School of Public and International Affairs",
+     "start": "2026-10-07",
+     "end": "2026-10-15",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Jon Ossoff": 48,
+      "Mike Collins": 40
+     },
+     "other": null,
+     "undecided": 12
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2026-10-07",
+     "end": "2026-10-09",
+     "sampleSize": 1101,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-09-22",
+     "end": "2026-09-23",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jon Ossoff": 50,
+      "Mike Collins": 42
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 721,
+     "population": "RV",
+     "moe": 4,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 40
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jon Ossoff": 52,
+      "Mike Collins": 41
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Big Data Poll (R)",
+     "start": "2026-09-21",
+     "end": "2026-09-23",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jon Ossoff": 55,
+      "Mike Collins": 45
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3416,
+     "population": "RV",
+     "moe": 2.7,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 41
+     },
+     "other": 2,
+     "undecided": 6
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3301,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Jon Ossoff": 52,
+      "Mike Collins": 42
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-15",
+     "end": "2026-09-18",
+     "sampleSize": 3071,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 43
+     },
+     "other": 1,
+     "undecided": 5
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-16",
+     "sampleSize": 645,
+     "population": "LV",
+     "moe": 4.3,
+     "results": {
+      "Jon Ossoff": 48,
+      "Mike Collins": 44
+     },
+     "other": 1,
+     "undecided": 7
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-16",
+     "sampleSize": 645,
+     "population": "LV",
+     "moe": 4.3,
+     "results": {
+      "Jon Ossoff": 49,
+      "Mike Collins": 45
+     },
+     "other": 1,
+     "undecided": 5
+    },
+    {
+     "pollster": "Rasmussen Reports (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-14",
+     "sampleSize": 1019,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 42
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2026-09-10",
+     "end": "2026-09-12",
+     "sampleSize": 1091,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Jon Ossoff": 49,
+      "Mike Collins": 43
+     },
+     "other": 1,
+     "undecided": 7
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-08-16",
+     "end": "2026-08-17",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Jon Ossoff": 50,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Fabrizio Ward (R)/Impact Research (D)",
+     "start": "2026-07-13",
+     "end": "2026-07-16",
+     "sampleSize": 1060,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Jon Ossoff": 52,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Wick",
+     "start": "2026-06-27",
+     "end": "2026-06-30",
+     "sampleSize": 1175,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Jon Ossoff": 47,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 10
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-06-23",
+     "end": "2026-06-27",
+     "sampleSize": 1002,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Jon Ossoff": 56,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 1
+    },
+    {
+     "pollster": "Echelon Insights (R)",
+     "start": "2026-04-03",
+     "end": "2026-04-09",
+     "sampleSize": 407,
+     "population": "LV",
+     "moe": 6.5,
+     "results": {
+      "Jon Ossoff": 51,
+      "Mike Collins": 44
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-02-28",
+     "end": "2026-03-02",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Jon Ossoff": 48,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2025-09-09",
+     "end": "2025-09-12",
+     "sampleSize": 624,
+     "population": "RV",
+     "moe": 4.3,
+     "results": {
+      "Jon Ossoff": 38,
+      "Mike Collins": 38
+     },
+     "other": null,
+     "undecided": 23
+    },
+    {
+     "pollster": "TIPP Insights",
+     "start": "2025-07-28",
+     "end": "2025-08-01",
+     "sampleSize": 2956,
+     "population": "RV",
+     "moe": 1.8,
+     "results": {
+      "Jon Ossoff": 45,
+      "Mike Collins": 44
+     },
+     "other": 3,
+     "undecided": 8
+    },
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2025-05-15",
+     "end": "2025-05-17",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Jon Ossoff": 46,
+      "Mike Collins": 43
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2025-04-24",
+     "end": "2025-04-27",
+     "sampleSize": 1426,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Jon Ossoff": 48,
+      "Mike Collins": 43
+     },
+     "other": 3,
+     "undecided": 6
+    },
+    {
+     "pollster": "WPA Intelligence (R)",
+     "start": "2025-01-14",
+     "end": "2025-01-15",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Jon Ossoff": 44,
+      "Mike Collins": 34
+     },
+     "other": null,
+     "undecided": 22
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-IA": {
+   "candidates": [
+    {
+     "name": "Ashley Hinson",
+     "party": "R"
+    },
+    {
+     "name": "Josh Turek",
+     "party": "D"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-21",
+     "end": "2026-10-22",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 45
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-19",
+     "sampleSize": 863,
+     "population": "LV",
+     "moe": 3.3,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 45
+     },
+     "other": 2,
+     "undecided": 6
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-10-15",
+     "end": "2026-10-19",
+     "sampleSize": 863,
+     "population": "LV",
+     "moe": 3.3,
+     "results": {
+      "Ashley Hinson": 49,
+      "Josh Turek": 46
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2026-10-13",
+     "end": "2026-10-15",
+     "sampleSize": 1094,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 44
+     },
+     "other": 4,
+     "undecided": 6
+    },
+    {
+     "pollster": "GS Strategy Group (R)/ New River Strategies (D)",
+     "start": "2026-10-09",
+     "end": "2026-10-13",
+     "sampleSize": 602,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Ashley Hinson": 44,
+      "Josh Turek": 46
+     },
+     "other": 8,
+     "undecided": 2
+    },
+    {
+     "pollster": "NPA Polling",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 44
+     },
+     "other": 4,
+     "undecided": 5
+    },
+    {
+     "pollster": "NPA Polling",
+     "start": "2026-10-08",
+     "end": "2026-10-12",
+     "sampleSize": 678,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 47
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-10-06",
+     "end": "2026-10-12",
+     "sampleSize": 2245,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 47
+     },
+     "other": 2,
+     "undecided": 4
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-10-08",
+     "end": "2026-10-11",
+     "sampleSize": null,
+     "population": "LV",
+     "moe": 6.6,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 48
+     },
+     "other": 3,
+     "undecided": 4
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-10-08",
+     "end": "2026-10-11",
+     "sampleSize": 1100,
+     "population": "RV",
+     "moe": 4.5,
+     "results": {
+      "Ashley Hinson": 44,
+      "Josh Turek": 51
+     },
+     "other": 2,
+     "undecided": 3
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-10-05",
+     "end": "2026-10-06",
+     "sampleSize": 650,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 45
+     },
+     "other": 2,
+     "undecided": 7
+    },
+    {
+     "pollster": "SSRS",
+     "start": "2026-09-29",
+     "end": "2026-10-05",
+     "sampleSize": 801,
+     "population": "LV",
+     "moe": 4.2,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 43
+     },
+     "other": 11,
+     "undecided": null
+    },
+    {
+     "pollster": "Suffolk University",
+     "start": "2026-10-01",
+     "end": "2026-10-04",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Hinson": 44,
+      "Josh Turek": 48
+     },
+     "other": 3,
+     "undecided": 6
+    },
+    {
+     "pollster": "New York Times/Siena University",
+     "start": "2026-09-22",
+     "end": "2026-10-01",
+     "sampleSize": 606,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 47
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Rasmussen Reports (R)",
+     "start": "2026-09-28",
+     "end": "2026-09-30",
+     "sampleSize": 1048,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Ashley Hinson": 43,
+      "Josh Turek": 47
+     },
+     "other": 3,
+     "undecided": 7
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-09-28",
+     "end": "2026-09-29",
+     "sampleSize": 738,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 46
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-09-28",
+     "end": "2026-09-29",
+     "sampleSize": 738,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 49,
+      "Josh Turek": 47
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "Quantus Insights (R)",
+     "start": "2026-09-28",
+     "end": "2026-09-29",
+     "sampleSize": 738,
+     "population": "LV",
+     "moe": 3.8,
+     "results": {
+      "Ashley Hinson": 51,
+      "Josh Turek": 49
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-09-24",
+     "end": "2026-09-28",
+     "sampleSize": 1008,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 49
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-09-24",
+     "end": "2026-09-28",
+     "sampleSize": 1204,
+     "population": "RV",
+     "moe": 2.5,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 50
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-09-22",
+     "end": "2026-09-23",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 47
+     },
+     "other": 3,
+     "undecided": 4
+    },
+    {
+     "pollster": "Marist University",
+     "start": "2026-09-17",
+     "end": "2026-09-20",
+     "sampleSize": 1050,
+     "population": "RV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Hinson": 42,
+      "Josh Turek": 50
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2026-09-16",
+     "end": "2026-09-18",
+     "sampleSize": 1089,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Ashley Hinson": 44,
+      "Josh Turek": 42
+     },
+     "other": 3,
+     "undecided": 10
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-16",
+     "sampleSize": 831,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 42
+     },
+     "other": 2,
+     "undecided": 9
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-09-14",
+     "end": "2026-09-16",
+     "sampleSize": 831,
+     "population": "LV",
+     "moe": 3.4,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 43
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2026-09-09",
+     "end": "2026-09-11",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Hinson": 43,
+      "Josh Turek": 43
+     },
+     "other": 4,
+     "undecided": 10
+    },
+    {
+     "pollster": "Rasmussen Reports (R)",
+     "start": "2026-09-08",
+     "end": "2026-09-10",
+     "sampleSize": 1031,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Ashley Hinson": 40,
+      "Josh Turek": 45
+     },
+     "other": 4,
+     "undecided": 11
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-03",
+     "end": "2026-09-08",
+     "sampleSize": 2169,
+     "population": "RV",
+     "moe": 3.5,
+     "results": {
+      "Ashley Hinson": 43,
+      "Josh Turek": 44
+     },
+     "other": 3,
+     "undecided": 11
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-03",
+     "end": "2026-09-08",
+     "sampleSize": 2041,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Ashley Hinson": 43,
+      "Josh Turek": 47
+     },
+     "other": 1,
+     "undecided": 8
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-08-31",
+     "end": "2026-09-01",
+     "sampleSize": 750,
+     "population": "LV",
+     "moe": 3.6,
+     "results": {
+      "Ashley Hinson": 50,
+      "Josh Turek": 45
+     },
+     "other": 1,
+     "undecided": 5
+    },
+    {
+     "pollster": "Global Strategy Group (D)",
+     "start": "2026-08-27",
+     "end": "2026-08-31",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Ashley Hinson": 42,
+      "Josh Turek": 46
+     },
+     "other": 6,
+     "undecided": 6
+    },
+    {
+     "pollster": "Abacus Data",
+     "start": "2026-08-26",
+     "end": "2026-08-28",
+     "sampleSize": 323,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 54
+     },
+     "other": 1,
+     "undecided": null
+    },
+    {
+     "pollster": "Abacus Data",
+     "start": "2026-08-26",
+     "end": "2026-08-28",
+     "sampleSize": 500,
+     "population": "RV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 52
+     },
+     "other": 2,
+     "undecided": null
+    },
+    {
+     "pollster": "Suffolk University",
+     "start": "2026-08-20",
+     "end": "2026-08-23",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 41
+     },
+     "other": 4,
+     "undecided": 10
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-08-02",
+     "end": "2026-08-04",
+     "sampleSize": 712,
+     "population": "LV",
+     "moe": 3.7,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 45
+     },
+     "other": null,
+     "undecided": 6
+    },
+    {
+     "pollster": "Beacon Research (D)/ Shaw & Co. Research (R)",
+     "start": "2026-06-23",
+     "end": "2026-06-27",
+     "sampleSize": 1003,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 50
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
+     "pollster": "New York Times/Siena University",
+     "start": "2026-06-15",
+     "end": "2026-06-27",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4.7,
+     "results": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 46
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Cygnal (R)",
+     "start": "2026-06-16",
+     "end": "2026-06-19",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 44
+     },
+     "other": null,
+     "undecided": 10
+    },
+    {
+     "pollster": "Global Strategy Group (D)",
+     "start": "2026-06-08",
+     "end": "2026-06-11",
+     "sampleSize": 1000,
+     "population": "LV",
+     "moe": 3.1,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 47
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Public Policy Polling (D)",
+     "start": "2026-06-03",
+     "end": "2026-06-04",
+     "sampleSize": 557,
+     "population": "RV",
+     "moe": 4.2,
+     "results": {
+      "Ashley Hinson": 46,
+      "Josh Turek": 46
+     },
+     "other": null,
+     "undecided": 7
+    },
+    {
+     "pollster": "Echelon Insights (R)",
+     "start": "2026-04-03",
+     "end": "2026-04-09",
+     "sampleSize": 377,
+     "population": "LV",
+     "moe": 6.6,
+     "results": {
+      "Ashley Hinson": 45,
+      "Josh Turek": 46
+     },
+     "other": null,
+     "undecided": 9
+    },
+    {
+     "pollster": "GQR (D)",
+     "start": "2026-03-10",
+     "end": "2026-03-16",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Ashley Hinson": 47,
+      "Josh Turek": 43
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-01-08",
+     "end": "2026-01-11",
+     "sampleSize": 1108,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Ashley Hinson": 44,
+      "Josh Turek": 41
+     },
+     "other": 1,
+     "undecided": 14
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-ID": {
+   "candidates": [
+    {
+     "name": "Jim Risch",
+     "party": "R"
+    },
+    {
+     "name": "Todd Achilles",
+     "party": "I"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "VoteNexus Research",
+     "start": "2026-10-21",
+     "end": "2026-10-22",
+     "sampleSize": 700,
+     "population": "LV",
+     "moe": 4.5,
+     "results": {
+      "Jim Risch": 49,
+      "Todd Achilles": 43
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Peak Insights (R)",
+     "start": "2026-09-28",
+     "end": "2026-09-30",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jim Risch": 49,
+      "Todd Achilles": 24
+     },
+     "other": 11,
+     "undecided": 15
+    },
+    {
+     "pollster": "Advanced Targeting Research",
+     "start": "2026-09-13",
+     "end": "2026-09-16",
+     "sampleSize": 700,
+     "population": "RV",
+     "moe": 3.7,
+     "results": {
+      "Jim Risch": 39,
+      "Todd Achilles": 50
+     },
+     "other": null,
+     "undecided": 11
+    },
+    {
+     "pollster": "Advanced Targeting Research",
+     "start": "2026-09-13",
+     "end": "2026-09-16",
+     "sampleSize": 700,
+     "population": "RV",
+     "moe": 3.7,
+     "results": {
+      "Jim Risch": 39,
+      "Todd Achilles": 46
+     },
+     "other": 5,
+     "undecided": 11
+    },
+    {
+     "pollster": "Peak Insights (R)",
+     "start": "2026-08-11",
+     "end": "2026-08-13",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jim Risch": 52,
+      "Todd Achilles": 18
+     },
+     "other": 12,
+     "undecided": 17
+    },
+    {
+     "pollster": "The Bullfinch Group",
+     "start": "2026-08-04",
+     "end": "2026-08-07",
+     "sampleSize": 608,
+     "population": "LV",
+     "moe": 3.9,
+     "results": {
+      "Jim Risch": 33,
+      "Todd Achilles": 38
+     },
+     "other": null,
+     "undecided": 29
+    },
+    {
+     "pollster": "The Bullfinch Group",
+     "start": "2026-08-04",
+     "end": "2026-08-07",
+     "sampleSize": 608,
+     "population": "LV",
+     "moe": 3.9,
+     "results": {
+      "Jim Risch": 34,
+      "Todd Achilles": 30
+     },
+     "other": 4,
+     "undecided": 32
+    },
+    {
+     "pollster": "Change Research (D)",
+     "start": "2026-07-28",
+     "end": "2026-07-30",
+     "sampleSize": 1213,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Jim Risch": 45,
+      "Todd Achilles": 21
+     },
+     "other": 11,
+     "undecided": 22
+    },
+    {
+     "pollster": "The Bullfinch Group",
+     "start": "2026-05-29",
+     "end": "2026-06-01",
+     "sampleSize": 774,
+     "population": "RV",
+     "moe": 3.5,
+     "results": {
+      "Jim Risch": 40,
+      "Todd Achilles": 36
+     },
+     "other": null,
+     "undecided": 24
+    },
+    {
+     "pollster": "Public Policy Polling (I)",
+     "start": "2026-03-16",
+     "end": "2026-03-17",
+     "sampleSize": 639,
+     "population": "RV",
+     "moe": 3.9,
+     "results": {
+      "Jim Risch": 48,
+      "Todd Achilles": 34
+     },
+     "other": null,
+     "undecided": 18
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-IL": {
+   "candidates": [
+    {
+     "name": "Juliana Stratton",
+     "party": "D"
+    },
+    {
+     "name": "Don Tracy",
+     "party": "R"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-09-26",
+     "end": "2026-10-20",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Juliana Stratton": 58.5,
+      "Don Tracy": 41.5
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Public Policy Polling (D)",
+     "start": "2026-09-30",
+     "end": "2026-10-01",
+     "sampleSize": 569,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Juliana Stratton": 49,
+      "Don Tracy": 36
+     },
+     "other": null,
+     "undecided": 15
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-KS": {
+   "candidates": [
+    {
+     "name": "Roger Marshall",
+     "party": "R"
+    },
+    {
+     "name": "Adam Hamilton",
+     "party": "D"
+    },
+    {
+     "name": "David Graham",
+     "party": "L"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "RedBox Research",
+     "start": "2026-10-20",
+     "end": "2026-10-23",
+     "sampleSize": 1301,
+     "population": "LV",
+     "moe": 3.2,
+     "results": {
+      "Roger Marshall": 46,
+      "Adam Hamilton": 45,
+      "David Graham": 3
+     },
+     "other": 3,
+     "undecided": 4
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-13",
+     "end": "2026-10-14",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Roger Marshall": 48,
+      "Adam Hamilton": 47,
+      "David Graham": 3
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-09",
+     "end": "2026-10-10",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Roger Marshall": 47,
+      "Adam Hamilton": 48,
+      "David Graham": 3
+     },
+     "other": null,
+     "undecided": 2
+    },
+    {
+     "pollster": "GBAO (D)",
+     "start": "2026-09-30",
+     "end": "2026-10-04",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Roger Marshall": 41,
+      "Adam Hamilton": 46,
+      "David Graham": 7
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "GBAO (D)",
+     "start": "2026-09-30",
+     "end": "2026-10-04",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Roger Marshall": 44,
+      "Adam Hamilton": 49
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "YouGov",
+     "start": "2026-09-24",
+     "end": "2026-10-04",
+     "sampleSize": 2255,
+     "population": "LV",
+     "moe": 3.2,
+     "results": {
+      "Roger Marshall": 45,
+      "Adam Hamilton": 48
+     },
+     "other": 2,
+     "undecided": 5
+    },
+    {
+     "pollster": "New York Times/Siena University",
+     "start": "2026-09-22",
+     "end": "2026-09-30",
+     "sampleSize": 605,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Roger Marshall": 45,
+      "Adam Hamilton": 45,
+      "David Graham": 5
+     },
+     "other": 0,
+     "undecided": 6
+    },
+    {
+     "pollster": "New York Times/Siena University",
+     "start": "2026-09-22",
+     "end": "2026-09-30",
+     "sampleSize": 605,
+     "population": "LV",
+     "moe": 4.6,
+     "results": {
+      "Roger Marshall": 47,
+      "Adam Hamilton": 46
+     },
+     "other": 0,
+     "undecided": 7
+    },
+    {
+     "pollster": "Trafalgar Group (R)",
+     "start": "2026-09-29",
+     "end": "2026-10-01",
+     "sampleSize": 1095,
+     "population": "LV",
+     "moe": 2.9,
+     "results": {
+      "Roger Marshall": 44,
+      "Adam Hamilton": 44,
+      "David Graham": 2
+     },
+     "other": null,
+     "undecided": 10
+    },
+    {
+     "pollster": "Emerson College",
+     "start": "2026-09-15",
+     "end": "2026-09-16",
+     "sampleSize": 750,
+     "population": "LV",
+     "moe": 3.6,
+     "results": {
+      "Roger Marshall": 43,
+      "Adam Hamilton": 45,
+      "David Graham": 4
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Global Strategy Group (D)",
+     "start": "2026-09-13",
+     "end": "2026-09-16",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Roger Marshall": 47,
+      "Adam Hamilton": 49
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Global Strategy Group (D)",
+     "start": "2026-09-13",
+     "end": "2026-09-16",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Roger Marshall": 43,
+      "Adam Hamilton": 47,
+      "David Graham": 5
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "co/efficient (R)",
+     "start": "2026-09-08",
+     "end": "2026-09-10",
+     "sampleSize": 915,
+     "population": "LV",
+     "moe": 3.22,
+     "results": {
+      "Roger Marshall": 49,
+      "Adam Hamilton": 44,
+      "David Graham": 2
+     },
+     "other": null,
+     "undecided": 5
+    },
+    {
+     "pollster": "Global Strategy Group (D)",
+     "start": "2026-08-12",
+     "end": "2026-08-16",
+     "sampleSize": 800,
+     "population": "LV",
+     "moe": 3.5,
+     "results": {
+      "Roger Marshall": 43,
+      "Adam Hamilton": 44,
+      "David Graham": 5
+     },
+     "other": null,
+     "undecided": 8
+    },
+    {
+     "pollster": "Public Policy Polling (D)",
+     "start": "2026-08-07",
+     "end": "2026-08-08",
+     "sampleSize": 569,
+     "population": "LV",
+     "moe": null,
+     "results": {
+      "Roger Marshall": 46,
+      "Adam Hamilton": 45
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "GBAO (D)",
+     "start": "2026-07-08",
+     "end": "2026-07-13",
+     "sampleSize": 600,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Roger Marshall": 47,
+      "Adam Hamilton": 43
+     },
+     "other": null,
+     "undecided": 10
+    },
+    {
+     "pollster": "Tavern Research (D)",
+     "start": "2026-01-26",
+     "end": "2026-01-28",
+     "sampleSize": 1013,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Roger Marshall": 54,
+      "Adam Hamilton": 46
+     },
+     "other": null,
+     "undecided": null
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+   "fetchedAt": "2026-10-26T19:54:16.750Z"
+  },
+  "senate-KY": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-LA": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-MA": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-ME": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-MI": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-MN": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-MS": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-MT": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-NC": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-NE": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-NH": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-NJ": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-NM": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-OH": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-OK": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-OR": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-RI": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-SC": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-SD": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-TN": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-TX": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-VA": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-WV": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  },
+  "senate-WY": {
+   "candidates": [],
+   "polls": [],
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+   "fetchedAt": "2026-10-26T19:54:16.750Z",
+   "error": "HTTP 429"
+  }
+ },
+ "genericBallot": null
+}

@@ -1,0 +1,17 @@
+---
+alwaysApply: true
+---
+
+## Idiomas: pt-BR e en (vale para o site inteiro)
+O site todo passa a ser bilíngue. Isso inclui o painel existente (mapa de Senado/Governador, página de disputa, "Onde votar") e a nova seção de Presidente. O idioma padrão é pt-BR.
+
+- **Rotas:** use um segmento `app/[locale]/` com `pt-BR` e `en`. As URLs ficam assim: `/pt-BR/...` e `/en/...`. Na raiz `/`, redirecione conforme o `Accept-Language`, com pt-BR como padrão, usando o `proxy.ts` do Next 16 (antigo middleware). Para a rota `/api/voterinfo`, não use prefixo de idioma.
+- **Slugs:** traduza os slugs das rotas: `/pt-BR/presidente` ↔ `/en/president`, `/pt-BR/onde-votar` ↔ `/en/where-to-vote`, `/pt-BR/disputa/[id]` ↔ `/en/race/[id]`. Centralize o mapeamento em `lib/i18n/routes.ts`.
+- **Dicionários:** ficam em `messages/pt-BR.json` e `messages/en.json`. Use chaves tipadas, com o tipo gerado a partir do pt-BR, para que uma chave faltando quebre o build. Não deixe nenhum texto de interface fixo nos componentes: títulos, filtros, legendas, tooltips, avisos, rótulos de competitividade ("Empate técnico" / "Toss-up", "Competitivo" / "Lean", "Favorito" / "Likely", "Folgado" / "Safe"), metodologia, rodapé, mensagens de erro e textos `aria-label`.
+- **Formatação:** números e datas são formatados com `Intl` conforme o idioma. Em pt-BR: `47,9%`, `26/10/2026`, `1.372`. Em en: `47.9%`, `Oct 26, 2026`, `1,372`. Troque os helpers atuais de `lib/ui.ts` (`fmtPct`, `fmtDate`, `fmtMargin`), que hoje têm a vírgula e o formato dd/mm fixos no código, por versões que recebem o locale. Os meses no eixo do gráfico também usam `Intl`.
+- **O que não traduzir:** nomes de candidatos, institutos de pesquisa e estados ficam como na fonte. Os rótulos de partido são traduzidos. Os siglas D/R/I ficam iguais nos dois idiomas, e os nomes por extenso mudam ("Democratas" / "Democrats").
+- **Dados sem idioma:** o JSON em `data/` não pode ter texto de interface. Hoje `genericBallot` grava "Democratas" e "Republicanos". Troque por chaves (`D`, `R`) e traduza na UI. A rota `/api/voterinfo` deve devolver códigos de erro (`NO_KEY`, `BAD_ADDRESS`, `NO_ELECTION_DATA`, `UPSTREAM`), e o cliente mostra a mensagem no idioma da página.
+- **Seletor de idioma:** fica no topo, como "PT | EN". Ao trocar, mantém a página equivalente (pelo mapeamento de slugs) e todos os filtros da query string, e grava a escolha num cookie `NEXT_LOCALE`.
+- **SEO:** `<html lang>` correto em cada idioma, `generateMetadata` traduzido, `alternates.languages` (hreflang) em todas as páginas e `generateStaticParams` gerando as páginas nos dois idiomas.
+- **Testes:** um teste que falha se os dois dicionários não tiverem exatamente as mesmas chaves, ou se algum valor estiver vazio. Testes dos formatadores nos dois locales.
+- **Aceite:** abra cada página nos dois idiomas, nos modos claro e escuro, e confira que nenhum texto em português aparece em `/en` (e vice-versa). Inclua no relatório um grep por acentos e palavras comuns em português dentro dos componentes, mostrando que não sobrou texto fixo.

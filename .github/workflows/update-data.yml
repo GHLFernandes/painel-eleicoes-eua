@@ -1,0 +1,42 @@
+name: Atualizar dados
+
+on:
+  schedule:
+    # Todo dia às 09:17 UTC (06:17 em Brasília). Minuto "quebrado" para evitar fila do GitHub.
+    - cron: "17 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Coletar pesquisas
+        run: npm run update-data
+        env:
+          WIKI_CONTACT: https://github.com/${{ github.repository }}
+      - name: Commitar se mudou (a Vercel publica sozinha a cada push)
+        run: |
+          if git diff --quiet data/; then
+            echo "Sem mudanças."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "dados: atualização diária $(date -u +%Y-%m-%d)"
+          git push

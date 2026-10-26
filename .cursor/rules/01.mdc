@@ -1,0 +1,66 @@
+---
+alwaysApply: true
+---
+
+# Tarefa: adicionar o painel presidencial 2028 ao painel-eleicoes-eua
+
+## Contexto
+Este é um projeto Next.js 16 (App Router), sem banco de dados. Os dados ficam em `data/polls.json` e são gerados por `scripts/update-data.ts`. Uma GitHub Action roda esse script todo dia e faz commit do JSON. As pesquisas vêm das tabelas da Wikipedia em inglês, via API `action=parse`, e o parser é `scripts/wiki-parse.ts`. Ele já trata rowspan/colspan, datas, amostra (LV/RV), cores de partido e já filtra a seção "General election". A média fica em `lib/average.ts`, o mapa em `app/components/UsMap.tsx` (SVG com us-atlas) e os estilos/tokens em `app/globals.css`.
+
+**Antes de escrever qualquer código, leia todos esses arquivos.** Alguns foram editados à mão. Reaproveite o que já existe (`tableGrid`, `parsePollTable`, `parseDateRange`, `averageRace`, `latestPerPollster`, os tokens de cor, os componentes `Seg` e chips) em vez de duplicar. Não quebre o painel de Senado e Governador.
+
+## O que construir
+Uma nova seção **"Presidente 2028"** (eleição em 7/11/2028), com rota `/presidente` e link no `Nav`. Ela tem três abas, cada uma com URL compartilhável:
+
+1. **Primárias**: média nacional das primárias Democrata e Republicana.
+   - Seletor de partido.
+   - Gráfico de tendência com até 8 candidatos. Do 9º em diante, agrupe em "Outros".
+   - Tabela das pesquisas.
+   - Filtro de candidatos por multi-select. Por padrão, mostre quem tem pelo menos 3% na média ou aparece em pelo menos 30% das pesquisas.
+   - Cada candidato tem uma cor categórica fixa, atribuída por ordem de média histórica. A cor não muda quando o filtro muda. Não use as cores de partido aqui, porque todos são do mesmo partido.
+   - Bloco de pesquisas estaduais das primárias nos estados que votam primeiro. Pegue o calendário atualizado da página da Wikipedia de cada primária e não deixe a lista de estados fixa no código.
+2. **Confrontos**: pesquisas nacionais de confrontos hipotéticos (Candidato D × Candidato R).
+   - Uma linha por par, com média, margem, nº de institutos e data da última pesquisa.
+   - Ordenação pelo nº de pesquisas.
+   - Clicar num par abre o gráfico de tendência e a tabela daquele confronto.
+   - Rótulo visível "Cenário hipotético" em todo lugar.
+3. **Mapa eleitoral**:
+   - Base: resultado de 2024 por estado (margem e vencedor). Gere um JSON estático `data/president-2024.json` a partir da página "2024 United States presidential election" (tabela de resultados por estado) e valide os totais (312 × 226 votos no colégio eleitoral).
+   - Por cima, as pesquisas estaduais de confronto 2028, quando existirem. Seletor de confronto: o mapa mostra as médias estaduais daquele par e, nos estados sem pesquisa, cai para a margem de 2024 com hachura e legenda "Sem pesquisa — resultado de 2024".
+   - Contador de votos no colégio eleitoral (270 para vencer, 538 no total). A distribuição de 2028 é a mesma de 2024, porque a redistribuição só muda após o Censo de 2030.
+   - Maine e Nebraska distribuem votos por distrito. Trate os votos estaduais (2 em cada) e os distritos separadamente, como mini-tiles ao lado do mapa.
+
+## Coleta de dados (scripts/)
+- **Não deixe nomes de páginas fixos no código sem verificar.** Primeiro, use `action=query&list=search` da API da Wikipedia para achar os títulos reais, por exemplo:
+  - "Nationwide opinion polling for the 2028 Democratic Party presidential primaries"
+  - "Nationwide opinion polling for the 2028 Republican Party presidential primaries"
+  - "Nationwide opinion polling for the 2028 United States presidential election"
+  - "Statewide opinion polling for the 2028 United States presidential election"
+  - as páginas de primária estadual
+
+  Coloque os títulos confirmados em `lib/president.ts`, com o redirect resolvido (`redirects=1`).
+- **Baixe o HTML real de cada página e salve como fixture** em `scripts/fixtures/` antes de escrever o parser. As tabelas de primária têm muitas colunas de candidato, células "–" e colunas de "Other/Undecided". As de confronto costumam ser uma tabela por par, dentro de seções "Hypothetical polling", ou uma tabela grande com o par no cabeçalho. Escreva o parser a partir do formato real, não do que você supõe.
+- **Candidatos vêm dos dados.** Nenhum nome de candidato fica fixo no código. Normalize os nomes de candidato entre tabelas: "J.D. Vance", "JD Vance" e "Vance" viram a mesma pessoa. Faça isso com uma tabela de aliases gerada (sobrenome + primeiro nome) e um arquivo `data/aliases.json` editável para os casos ambíguos.
+- **Partido de cada candidato:** venha do contexto da página (primária D ou R) ou da cor ou sufixo no cabeçalho (o parser já faz isso).
+- **Dados:** grave em `data/president.json`, com um formato próprio em `lib/types.ts`:
+  - `primaries.{D,R}.national`
+  - `primaries.{D,R}.states`
+  - `matchups[]` com `{ d, r, polls }`
+  - `stateMatchups[stateCode][]`
+  - `fetchedAt`, `source`
+- **Mesma resiliência do script atual:** se uma página falhar, mantenha o dado anterior e marque `error`. O job só falha se mais da metade das páginas quebrar.
+- **Coleta diária:** adicione a coleta ao `update-data.ts` (ou a um `update-president.ts` chamado pelo mesmo `npm run update-data`), para a GitHub Action existente cobrir tudo.
+
+## Regras de apresentação
+- **Neutralidade:** os dois partidos recebem o mesmo tratamento em layout, ordem, textos e destaque. Nas listas, a ordem é sempre a da métrica (margem, média), nunca a do partido. Sem adjetivos nem texto editorial sobre candidatos.
+- **Metodologia visível:** deixe claro que são médias de pesquisas, não previsões. Mostre a metodologia (a mesma de `lib/average.ts`) e o nº de pesquisas por trás de cada número. Com menos de 3 pesquisas na janela, mostre o número com o aviso "poucas pesquisas".
+- **Cores e acessibilidade:** reaproveite os tokens de partido e do mapa divergente. Para as cores categóricas das primárias, use a paleta do skill de dataviz (azul, laranja, aqua, amarelo, magenta, verde, violeta, vermelho, nessa ordem, com variantes de modo escuro), sempre com legenda e rótulo direto no fim da linha. Nada pode depender só da cor.
+- **Layout e interação:** o layout tem que funcionar em 390px de largura, e os filtros vão numa linha acima dos gráficos. O gráfico de tendência tem tooltip com crosshair, como o `TrendChart` atual. Generalize esse componente para N séries em vez de criar outro.
+- **Rodapé:** atribuição CC BY-SA da Wikipedia (o rodapé já tem). Adicione a fonte do resultado de 2024.
+
+## Testes e critérios de aceite
+- **Testes:** `npm test` passa com testes novos usando as fixtures reais: parse de primária, de confronto nacional, de confronto estadual, normalização de aliases e a soma do colégio eleitoral de 2024 = 538.
+- **Build:** `npm run build` passa, e as páginas de confronto são geradas estaticamente (`generateStaticParams` a partir dos dados).
+- **Execução real:** rode `npm run update-data` de verdade e mostre no log quantas pesquisas foram coletadas por página. Abra `/presidente` no navegador e confira as três abas nos modos claro e escuro.
+- **README:** atualize com a nova seção e as fontes.
+- **Commits:** faça commits pequenos por etapa (coleta, tipos/média, UI de primárias, confrontos, mapa).
