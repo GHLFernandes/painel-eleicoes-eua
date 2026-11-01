@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T15:18:47.529Z",
+ "generatedAt": "2026-11-01T16:00:05.821Z",
  "license": "Dados de pesquisas extraídos da Wikipedia em inglês (CC BY-SA 4.0).",
  "races": {
   "governor-AK": {
@@ -379,7 +379,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-AL": {
    "candidates": [
@@ -479,7 +479,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Alabama_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-AR": {
    "candidates": [
@@ -529,7 +529,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-AZ": {
    "candidates": [
@@ -993,7 +993,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-CA": {
    "candidates": [
@@ -1007,6 +1007,20 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-17",
+     "end": "2026-10-31",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Xavier Becerra": 63,
+      "Steve Hilton": 37
+     },
+     "other": null,
+     "undecided": null
+    },
     {
      "pollster": "Berkeley IGS",
      "start": "2026-10-19",
@@ -1303,7 +1317,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_California_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-CO": {
    "candidates": [
@@ -1318,7 +1332,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-CT": {
    "candidates": [
@@ -1530,7 +1544,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Connecticut_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-FL": {
    "candidates": [
@@ -1544,6 +1558,118 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-20",
+     "end": "2026-10-31",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Byron Donalds": 52,
+      "David Jolly": 48
+     },
+     "other": null,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1067,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 44
+     },
+     "other": 9,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1067,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Byron Donalds": 44,
+      "David Jolly": 41
+     },
+     "other": 6,
+     "undecided": 8
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1122,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Byron Donalds": 47,
+      "David Jolly": 44
+     },
+     "other": 10,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1122,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Byron Donalds": 43,
+      "David Jolly": 40
+     },
+     "other": 6,
+     "undecided": 11
+    },
+    {
+     "pollster": "Stetson University",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 852,
+     "population": "RV",
+     "moe": 3.6,
+     "results": {
+      "Byron Donalds": 51,
+      "David Jolly": 45
+     },
+     "other": 1,
+     "undecided": 2
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-28",
+     "end": "2026-10-29",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Byron Donalds": 49,
+      "David Jolly": 45
+     },
+     "other": 2,
+     "undecided": 4
+    },
+    {
+     "pollster": "Political Matrix/The Listener Group",
+     "start": "2026-10-26",
+     "end": "2026-10-28",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Byron Donalds": 40,
+      "David Jolly": 39
+     },
+     "other": null,
+     "undecided": 21
+    },
     {
      "pollster": "St. Pete Polls",
      "start": "2026-10-25",
@@ -2134,7 +2260,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-GA": {
    "candidates": [
@@ -2514,7 +2640,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-HI": {
    "candidates": [
@@ -2529,7 +2655,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_Hawaii_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-IA": {
    "candidates": [
@@ -2895,7 +3021,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-ID": {
    "candidates": [
@@ -2988,7 +3114,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-IL": {
    "candidates": [
@@ -3002,6 +3128,20 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-23",
+     "end": "2026-10-31",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "JB Pritzker": 59,
+      "Darren Bailey": 41
+     },
+     "other": null,
+     "undecided": null
+    },
     {
      "pollster": "ActiVote",
      "start": "2026-10-02",
@@ -3046,7 +3186,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-KS": {
    "candidates": [
@@ -3068,11 +3208,11 @@
      "population": "LV",
      "moe": 3.5,
      "results": {
-      "Cindy Holscher": 46,
-      "Ty Masterson": 50
+      "Cindy Holscher": 48,
+      "Ty Masterson": 53
      },
      "other": null,
-     "undecided": 4
+     "undecided": null
     },
     {
      "pollster": "Emerson College",
@@ -3082,11 +3222,11 @@
      "population": "LV",
      "moe": 3.5,
      "results": {
-      "Cindy Holscher": 47.5,
-      "Ty Masterson": 52.5
+      "Cindy Holscher": 46,
+      "Ty Masterson": 50
      },
      "other": null,
-     "undecided": null
+     "undecided": 4
     },
     {
      "pollster": "The Washington Post/SSPG",
@@ -3216,7 +3356,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-MA": {
    "candidates": [
@@ -3428,7 +3568,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-MD": {
    "candidates": [
@@ -3472,7 +3612,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Maryland_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-ME": {
    "candidates": [
@@ -3490,6 +3630,21 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-23",
+     "end": "2026-10-27",
+     "sampleSize": 652,
+     "population": "LV",
+     "moe": 4.5,
+     "results": {
+      "Hannah Pingree": 49,
+      "Bobby Charles": 37,
+      "Rick Bennett": 7
+     },
+     "other": null,
+     "undecided": 6
+    },
     {
      "pollster": "SSRS",
      "start": "2026-10-20",
@@ -3845,7 +4000,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Maine_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-MI": {
    "candidates": [
@@ -3886,6 +4041,20 @@
      },
      "other": 5,
      "undecided": 1
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-23",
+     "end": "2026-10-25",
+     "sampleSize": 622,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Jocelyn Benson": 50,
+      "John James": 46
+     },
+     "other": 2,
+     "undecided": 3
     },
     {
      "pollster": "Michigan State University/Verasight",
@@ -4463,7 +4632,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-MN": {
    "candidates": [
@@ -4689,7 +4858,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Minnesota_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-NE": {
    "candidates": [
@@ -4968,7 +5137,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-NH": {
    "candidates": [
@@ -5194,7 +5363,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-NM": {
    "candidates": [
@@ -5280,7 +5449,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-NV": {
    "candidates": [
@@ -5548,7 +5717,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-NY": {
    "candidates": [
@@ -6054,7 +6223,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-OH": {
    "candidates": [
@@ -6658,7 +6827,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-OK": {
    "candidates": [
@@ -6744,7 +6913,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Oklahoma_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-OR": {
    "candidates": [
@@ -6881,7 +7050,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-PA": {
    "candidates": [
@@ -7247,7 +7416,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-RI": {
    "candidates": [
@@ -7416,7 +7585,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-SC": {
    "candidates": [
@@ -7558,7 +7727,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-SD": {
    "candidates": [
@@ -7602,7 +7771,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-TN": {
    "candidates": [
@@ -7723,7 +7892,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Tennessee_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-TX": {
    "candidates": [
@@ -7742,7 +7911,7 @@
    ],
    "polls": [
     {
-     "pollster": "KStrat",
+     "pollster": "Kreate Strategies",
      "start": "2026-10-27",
      "end": "2026-10-30",
      "sampleSize": 900,
@@ -7786,6 +7955,21 @@
      "undecided": 0
     },
     {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-23",
+     "end": "2026-10-26",
+     "sampleSize": 712,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Greg Abbott": 48,
+      "Gina Hinojosa": 47,
+      "Pat Dixon": 2
+     },
+     "other": null,
+     "undecided": 4
+    },
+    {
      "pollster": "YouGov Blue (D)",
      "start": "2026-10-21",
      "end": "2026-10-26",
@@ -7822,7 +8006,7 @@
      "population": "LV",
      "moe": 4.9,
      "results": {
-      "Greg Abbott": 53,
+      "Greg Abbott": 52,
       "Gina Hinojosa": 48
      },
      "other": null,
@@ -8769,7 +8953,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-VT": {
    "candidates": [
@@ -8911,7 +9095,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Vermont_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-WI": {
    "candidates": [
@@ -9151,7 +9335,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "governor-WY": {
    "candidates": [
@@ -9166,7 +9350,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_Wyoming_gubernatorial_election",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-AK": {
    "candidates": [
@@ -9184,7 +9368,7 @@
     },
     {
      "name": "Dan J. Sullivan",
-     "party": "R"
+     "party": "I"
     },
     {
      "name": "Gerald Heikes",
@@ -9607,7 +9791,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-AL": {
    "candidates": [
@@ -9693,7 +9877,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-AR": {
    "candidates": [
@@ -9793,7 +9977,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-CO": {
    "candidates": [
@@ -9808,7 +9992,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-DE": {
    "candidates": [
@@ -9823,7 +10007,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-FL": {
    "candidates": [
@@ -9837,6 +10021,104 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1067,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Ashley Moody": 52,
+      "Angie Nixon": 45
+     },
+     "other": 4,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1067,
+     "population": "LV",
+     "moe": 3,
+     "results": {
+      "Ashley Moody": 48,
+      "Angie Nixon": 42
+     },
+     "other": 3,
+     "undecided": 7
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1122,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Ashley Moody": 51,
+      "Angie Nixon": 45
+     },
+     "other": 5,
+     "undecided": null
+    },
+    {
+     "pollster": "Big Data Poll",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 1122,
+     "population": "RV",
+     "moe": 3,
+     "results": {
+      "Ashley Moody": 47,
+      "Angie Nixon": 41
+     },
+     "other": 3,
+     "undecided": 10
+    },
+    {
+     "pollster": "Stetson University",
+     "start": "2026-10-26",
+     "end": "2026-10-30",
+     "sampleSize": 852,
+     "population": "RV",
+     "moe": 3.6,
+     "results": {
+      "Ashley Moody": 49,
+      "Angie Nixon": 45
+     },
+     "other": 3,
+     "undecided": 3
+    },
+    {
+     "pollster": "InsiderAdvantage (R)",
+     "start": "2026-10-28",
+     "end": "2026-10-29",
+     "sampleSize": 1200,
+     "population": "LV",
+     "moe": 2.8,
+     "results": {
+      "Ashley Moody": 49,
+      "Angie Nixon": 43
+     },
+     "other": 2,
+     "undecided": 6
+    },
+    {
+     "pollster": "Political Matrix/The Listener Group",
+     "start": "2026-10-26",
+     "end": "2026-10-28",
+     "sampleSize": 500,
+     "population": "LV",
+     "moe": 4.4,
+     "results": {
+      "Ashley Moody": 42,
+      "Angie Nixon": 36
+     },
+     "other": null,
+     "undecided": 22
+    },
     {
      "pollster": "St. Pete Polls",
      "start": "2026-10-25",
@@ -10217,7 +10499,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-GA": {
    "candidates": [
@@ -10639,7 +10921,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-IA": {
    "candidates": [
@@ -11285,7 +11567,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-ID": {
    "candidates": [
@@ -11441,7 +11723,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-IL": {
    "candidates": [
@@ -11455,6 +11737,20 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "ActiVote",
+     "start": "2026-10-21",
+     "end": "2026-10-30",
+     "sampleSize": 400,
+     "population": "LV",
+     "moe": 4.9,
+     "results": {
+      "Juliana Stratton": 56,
+      "Don Tracy": 44
+     },
+     "other": null,
+     "undecided": null
+    },
     {
      "pollster": "ActiVote",
      "start": "2026-09-26",
@@ -11485,7 +11781,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-KS": {
    "candidates": [
@@ -11826,7 +12122,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-KY": {
    "candidates": [
@@ -11870,7 +12166,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-LA": {
    "candidates": [
@@ -11928,7 +12224,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-MA": {
    "candidates": [
@@ -12165,7 +12461,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-ME": {
    "candidates": [
@@ -12179,6 +12475,20 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-23",
+     "end": "2026-10-27",
+     "sampleSize": 652,
+     "population": "LV",
+     "moe": 4.5,
+     "results": {
+      "Susan Collins": 45,
+      "Troy Jackson": 50
+     },
+     "other": null,
+     "undecided": 4
+    },
     {
      "pollster": "SSRS",
      "start": "2026-10-20",
@@ -12657,7 +12967,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-MI": {
    "candidates": [
@@ -12726,6 +13036,20 @@
      },
      "other": 8,
      "undecided": 1
+    },
+    {
+     "pollster": "Data for Progress (D)",
+     "start": "2026-10-23",
+     "end": "2026-10-25",
+     "sampleSize": 622,
+     "population": "LV",
+     "moe": 4,
+     "results": {
+      "Abdul El-Sayed": 50,
+      "Mike Rogers": 46
+     },
+     "other": 2,
+     "undecided": 3
     },
     {
      "pollster": "RedBox Research (D)",
@@ -13779,7 +14103,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-MN": {
    "candidates": [
@@ -14131,7 +14455,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-MS": {
    "candidates": [
@@ -14238,7 +14562,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-MT": {
    "candidates": [
@@ -14621,7 +14945,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-NC": {
    "candidates": [
@@ -15603,7 +15927,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-NE": {
    "candidates": [
@@ -15913,7 +16237,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-NH": {
    "candidates": [
@@ -16363,7 +16687,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-NJ": {
    "candidates": [
@@ -16378,7 +16702,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-NM": {
    "candidates": [
@@ -16436,7 +16760,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-OH": {
    "candidates": [
@@ -17180,7 +17504,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-OK": {
    "candidates": [
@@ -17210,7 +17534,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-OR": {
    "candidates": [
@@ -17225,7 +17549,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-RI": {
    "candidates": [
@@ -17333,7 +17657,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-SC": {
    "candidates": [
@@ -17587,7 +17911,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-SD": {
    "candidates": [
@@ -17841,7 +18165,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-TN": {
    "candidates": [
@@ -17871,7 +18195,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-TX": {
    "candidates": [
@@ -17890,7 +18214,7 @@
    ],
    "polls": [
     {
-     "pollster": "KStrat",
+     "pollster": "Kreate Strategies",
      "start": "2026-10-27",
      "end": "2026-10-30",
      "sampleSize": 900,
@@ -19123,7 +19447,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-VA": {
    "candidates": [
@@ -19167,7 +19491,7 @@
     }
    ],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-WV": {
    "candidates": [
@@ -19182,7 +19506,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   },
   "senate-WY": {
    "candidates": [
@@ -19197,7 +19521,7 @@
    ],
    "polls": [],
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
-   "fetchedAt": "2026-10-31T15:18:47.529Z"
+   "fetchedAt": "2026-11-01T16:00:05.821Z"
   }
  },
  "genericBallot": null
